@@ -20,9 +20,9 @@ const monaSans = localFont({
 })
 
 export const metadata = {
-  title: 'Commit - Open-source Git client for macOS minimalists',
+  title: 'SpeedSMM - Changelog',
   description:
-    'Commit is a lightweight Git client you can open from anywhere any time you’re ready to commit your work with a single keyboard shortcut. It’s fast, beautiful, and completely unnecessary.',
+    'You can get detailed information about all the updates we have released here.',
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
