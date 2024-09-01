@@ -22,7 +22,7 @@ const monaSans = localFont({
 export const metadata = {
   title: 'SpeedSMM ・ Changelog',
   description:
-    'You can get detailed information about all the updates we have released here.',
+    'Welcome to the SpeedSMM Changelog! Here, you\'ll find comprehensive details about all the updates and improvements we\'ve made to our platform. Our changelog is designed to keep you informed about new features, bug fixes, performance enhancements, and other important changes. We believe in transparency and want you to be aware of how we\'re continuously working to enhance your experience. Check back regularly to stay up-to-date with the latest developments!',
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
