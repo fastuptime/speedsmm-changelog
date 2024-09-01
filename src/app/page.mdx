@@ -4,57 +4,11 @@ export { Layout as default } from '@/components/Layout'
 
 ---
 
-![](@/images/commit-suggestions.png)
-
-## Commit message suggestions {{ date: '2023-04-06T00:00Z' }}
-
-In the latest release, I've added support for commit message and description suggestions via an integration with OpenAI. Commit looks at all of your changes, and feeds that into the machine with a bit of prompt-tuning to get back a commit message that does a surprisingly good job at describing the intent of your changes.
-
-It's also been a pretty helpful way to remind myself what the hell I was working on at the end of the day yesterday when I get back to my computer and realize I didn't commit any of my work.
-
-### <SparkleIcon /> Improvements
-
-- Added commit message and description suggestions powered by OpenAI
-- Fixed race condition that could sometimes leave you in a broken rebase state
-- Improved active project detection to try and ignore file changes triggered by the system instead of the user
-- Fixed bug that sometimes reported the wrong number of changed files
-
----
-
-![](@/images/configuration-files.png)
-
-## Project configuration files {{ date: '2023-03-17T00:00Z' }}
-
-I've added support for creating per-project `.commitrc` files that override your global settings for that particular project. Went with YAML for these because personally I'm sick of quoting keys in JSON all the time, or accidentally leaving in a trailing comma.
-
-### <SparkleIcon /> Improvements
-
-- Added per-project `.commitrc` configuration files
-- Improved performance when working with projects with large binary files
-- Fixed a bug that could cause Commit to crash when autocommitting after deleting a recently active branch
-
----
-
-![](@/images/dark-mode.png)
-
-## Dark mode support {{ date: '2023-03-06T00:00Z' }}
-
-I released this thing last week hoping a couple of people would say "awesome job" and make me feel good about what I'd built but instead I just got a ton of people shaming me on X for being such a horrible person for only shipping a light UI.
-
-### <SparkleIcon /> Improvements
-
-- Added dark mode support
-- Improved input field responsiveness when writing a commit message in a project with a large number of changed files
-- Made keyboard shortcut for opening the Commit window customizable
-- Deleted my X account
-
----
-
-![](@/images/first-release.png)
+![](@/images/v5.png)
 
 ## Pre-alpha v5.0.0 {{  date: '2024-07-09T16:51Z' }}
 
-#### <SparkleIcon />  New Features and Technological Choices:
+### <SparkleIcon /> New Features and Technological Choices:
 - **Database:** PostgreSQL usage has been confirmed. The database schema and basic configurations have been established.
 - **Server-Side Technology:** Node.js has been chosen as the server-side technology. The development environment has been set up, and foundational components have been created.
 - **Version Control:** Git has been selected for version control. A central Git repository has been created, and access permissions have been configured.
@@ -62,7 +16,7 @@ I released this thing last week hoping a couple of people would say "awesome job
 - **Other Technologies:**
   - **Custom Technologies:** Initial drafts of our custom-developed technologies and tools have been completed. These technologies have been optimized specifically for the project and are designed to work in harmony with the existing features.
 
-#### <SparkleIcon />  Work Completed:
+### <SparkleIcon /> Work Completed:
 - **Project Plan:** A comprehensive project plan detailing requirements and technical aspects has been created. This plan includes development processes and key milestones.
 - **Initial Prototype:** Development work has begun for the initial prototype version. Basic functionalities are being worked on, and initial testing is underway.
 
