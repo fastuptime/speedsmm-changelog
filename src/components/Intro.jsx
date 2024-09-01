@@ -49,12 +49,11 @@ export function Intro() {
         </Link>
       </div>
       <h1 className="mt-14 font-display text-4xl/tight font-light text-white">
-        SpeedSMM {' '}
-        <span className="text-sky-300">Changelog</span>
+        Welcome to the {' '}
+        <span className="text-sky-300">SpeedSMM Changelog</span>!
       </h1>
       <p className="mt-4 text-sm/6 text-gray-300">
-        You can get detailed information about all
-        the updates we have released here.
+        Here, you'll find comprehensive details about all the updates and improvements we've made to our platform. Our changelog is designed to keep you informed about new features, bug fixes, performance enhancements, and other important changes. We believe in transparency and want you to be aware of how we're continuously working to enhance your experience. Check back regularly to stay up-to-date with the latest developments!
       </p>
 {/*       <SignUpForm /> */}
       <div className="mt-8 flex flex-wrap justify-center gap-x-1 gap-y-3 sm:gap-x-2 lg:justify-start">
