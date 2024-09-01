@@ -49,20 +49,19 @@ export function Intro() {
         </Link>
       </div>
       <h1 className="mt-14 font-display text-4xl/tight font-light text-white">
-        Open-source Git client{' '}
-        <span className="text-sky-300">for macOS minimalists</span>
+        SpeedSMMM{' '}
+        <span className="text-sky-300">Changelog</span>
       </h1>
       <p className="mt-4 text-sm/6 text-gray-300">
-        Commit is a lightweight Git client you can open from anywhere any time
-        you’re ready to commit your work with a single keyboard shortcut. It’s
-        fast, beautiful, and completely unnecessary.
+        You can get detailed information about all
+        the updates we have released here.
       </p>
       <SignUpForm />
       <div className="mt-8 flex flex-wrap justify-center gap-x-1 gap-y-3 sm:gap-x-2 lg:justify-start">
-        <IconLink href="#" icon={BookIcon} className="flex-none">
+        <IconLink href="https://docs.speedsmm.com/" icon={BookIcon} className="flex-none">
           Documentation
         </IconLink>
-        <IconLink href="#" icon={GitHubIcon} className="flex-none">
+        <IconLink href="https://github.com/fastuptime" icon={GitHubIcon} className="flex-none">
           GitHub
         </IconLink>
         <IconLink href="/feed.xml" icon={FeedIcon} className="flex-none">
@@ -76,9 +75,9 @@ export function Intro() {
 export function IntroFooter() {
   return (
     <p className="flex items-baseline gap-x-2 text-[0.8125rem]/6 text-gray-500">
-      Brought to you by{' '}
-      <IconLink href="#" icon={XIcon} compact>
-        Joe Davola
+      Power by{' '}
+      <IconLink href="https://x.com/FastUptime" icon={XIcon} compact>
+        Can
       </IconLink>
     </p>
   )
