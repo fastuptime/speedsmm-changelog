@@ -20,7 +20,7 @@ const monaSans = localFont({
 })
 
 export const metadata = {
-  title: 'SpeedSMM - Changelog',
+  title: 'SpeedSMM ・ Changelog',
   description:
     'You can get detailed information about all the updates we have released here.',
   alternates: {
