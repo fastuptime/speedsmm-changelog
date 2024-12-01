@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
 @import './base.css';
 @import './components.css';
 @import './utilities.css';
+
+.speed-chat {
+  font-family: 'Aldrich', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.highlight {
+  color: #ff0000; /* Kırmızı renk */
+}
